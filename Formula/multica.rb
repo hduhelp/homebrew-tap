@@ -1,26 +1,26 @@
 class Multica < Formula
   desc "Local agent runtime and management tool for the Multica platform"
   homepage "https://github.com/hduhelp/multica"
-  version "0.4.10"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hduhelp/multica/releases/download/v0.4.10/multica-cli-0.4.10-darwin-arm64.tar.gz"
-      sha256 "94686b35b55635707bf5729e457935397f4606ec00749b8d2c642c48b680ae19"
+      url "https://github.com/hduhelp/multica/releases/download/v0.5.0/multica-cli-0.5.0-darwin-arm64.tar.gz"
+      sha256 "7368d18c0bf7348d50e93ab43086673d01302ffd45dbc5cd08cd0ad024b99167"
     else
-      url "https://github.com/hduhelp/multica/releases/download/v0.4.10/multica-cli-0.4.10-darwin-amd64.tar.gz"
-      sha256 "6650a6a56007670fb4a14ada4b880065f0d27b53084366b339fa0227eb89f7a0"
+      url "https://github.com/hduhelp/multica/releases/download/v0.5.0/multica-cli-0.5.0-darwin-amd64.tar.gz"
+      sha256 "1d0696d2ef889b6cab5832c31aae21318df3db31f2176c281cb0e68f6a850c71"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hduhelp/multica/releases/download/v0.4.10/multica-cli-0.4.10-linux-arm64.tar.gz"
-      sha256 "a48208d9c466cc4b34e2c9d561fd7472d261a40fd56f350f50d2daa409c7451c"
+      url "https://github.com/hduhelp/multica/releases/download/v0.5.0/multica-cli-0.5.0-linux-arm64.tar.gz"
+      sha256 "a2b1741da706a4abe4eddd90c23ccfa2bdc4b39cf6d22afd09352377af937ac3"
     else
-      url "https://github.com/hduhelp/multica/releases/download/v0.4.10/multica-cli-0.4.10-linux-amd64.tar.gz"
-      sha256 "f464e39fb949fe98940d5349bd124be83dbe5ee69519af90dcedc485514bc58e"
+      url "https://github.com/hduhelp/multica/releases/download/v0.5.0/multica-cli-0.5.0-linux-amd64.tar.gz"
+      sha256 "b99f3b8519472de29f14cbc32ebd86660b351adec973c4d59591a3226852dfde"
     end
   end
 
